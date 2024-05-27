@@ -1,0 +1,1419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero .header{
+    display: flex;
+    height: 100vh;
+    background: url(./img/pexels-rachel-claire-6761501.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+ 
+    
+}
+
+.hero nav{
+  /* position: fixed; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+.hero .nav .nav-head{
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.hero .nav span{
+  color:orange;
+}
+
+.hero nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.hero .nav ul li .h{
+  color: orange;
+}
+.hero .nav ul li .h:hover{
+  color: blue;
+}
+
+.hero nav li a, .hero nav .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.hero nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: #a09e9e;
+  color: red;
+}
+
+.hero nav li.dropdown {
+  display: inline-block;
+}
+
+.hero nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.hero nav .dropdown-content a {
+  color: black;  padding: 12px 16px;
+  text-decoration: none;   display: block;
+  text-align: left;
+}
+
+.hero nav .dropdown-content a:hover {background-color: #bebdbd;}
+
+.hero nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.hero .header .header-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  margin-left: 10%;
+  transform: matrix(1, -0.1, 0, 1, 1, 1);
+ 
+   
+ }
+
+
+ .hero .header .header-text .bot{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   margin-top: 10px;
+ }
+
+ .hero .header-head{
+   color: white;
+   font-size: 5rem;
+   
+ }
+
+ .hero .header .s-p{
+   color: orange;
+ }
+
+ .hero .butt{
+   background-color: rgb(182, 80, 80);
+   padding: 10px 15px;
+   color: white;
+   font-size: 15px;
+   border: none;
+ }
+ .hero .butt-1{
+   background-color:transparent;
+   padding: 10px 15px;
+   color: white;
+   font-size: 15px;
+   border: 2px solid white;
+ }
+
+
+  .hero .desire{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .hero .desire img{
+    width: 500px;
+    height: 650px;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+
+  .hero .desire .desire-text{
+
+    margin-left: 5%;
+    margin-top: 120px;
+  }
+
+  .hero .desire .desire-text .p1{
+    color: rgb(212, 59, 59);
+    font-size: 13px;
+  }
+
+  .hero .desire .desire-text .desire-head{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+  }
+  .hero .desire .desire-text .p2{
+    padding-top: 30px;
+    padding-bottom: 17px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(167, 163, 163);
+    line-height: 30px;
+    
+  }
+  .hero .desire .desire-text .p3{
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(167, 163, 163);
+    line-height: 30px;
+    
+  }
+
+  .hero .desire .desire-text .d-s-p{
+    color: brown;
+    font-size: 30px;
+    
+
+  }
+
+
+  .hero .desire .desire-text .p4{
+   font-size: 30px;
+   row-gap: 10px;
+  }
+
+  .hero .verieties{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-top: 70px;
+    justify-content: center;
+    
+  }
+
+  .hero .verieties .gin-names{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .hero .verieties img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid brown;
+    padding: 10px 10px;
+  }
+
+  .hero .verieties img:hover{
+    opacity: 0.5;
+  }
+
+  .hero .brands{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .hero .brands .brand-text{
+    text-align: center;
+  }
+
+  .hero .brands .brand-text .brand-mid{
+    color: rgb(211, 82, 82);
+    font-size: 13px;
+  }
+
+  .hero .brands .brand-text .brand-head{
+    padding-top: 15px;
+    font-size: 45px;
+  }
+
+  .hero .brands .imgs  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 30px;
+   
+  }
+  .hero .brands .imgs .brand-imgs img{
+    width: 220px;
+    height: 350px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    margin-top: 50px;
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .img-s-p{
+    margin-right: 55%;
+    background-color: orange;
+    color: white;
+    padding: 2px 8px;
+
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .img-s-p-w{
+    margin-right: 55%;
+    background-color: green;
+    color: white;
+    padding: 2px 8px;
+
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .img-s-p-p{
+    margin-right: 75%;
+    margin-right: 55%;
+    background-color: brown;
+    color: white;
+    padding: 2px 8px;
+
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .brand-name{
+    margin-left: 10px;
+    color: rgb(197, 75, 75);
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .brand-name-head{
+    padding-top: 10px;
+    font-size: 22px;
+    color: rgb(97, 96, 96);
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .brand-name-mid{
+    padding-top: 15px;
+    color: rgb(151, 148, 148);
+  }
+
+  .hero .brands .imgs .brand-imgs .img-name .b-n-s{
+    text-decoration: line-through;
+    color: rgb(179, 176, 176);
+    font-size: 13px;
+  }
+
+  .hero .brands .view{
+    margin-top: 50px;
+    background-color: rgb(134, 47, 47);
+    color: white;
+    padding: 10px 10px;
+    margin-left: 40%;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+
+  .hero .testimonia{
+  background-image: linear-gradient( to right, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.24)), url(./img/pexels-chris-f-38966-1283219.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   padding-bottom: 20px;
+    color: white;
+  }
+
+  .hero .testimonia .testi-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 10px;
+  }
+
+  .hero .testimonia .T-mid{
+    color: rgb(172, 168, 168);
+    font-size: 20px;
+  }
+  .hero .testimonia .T-head{
+    color: white;
+  }
+
+
+
+  .hero .testimonia .clients {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+
+  .hero .testimonia .clients .client{
+    padding: 15px 10px;
+    margin-left: 30px;
+    border: 1px solid rgb(223, 221, 221);
+    width: 250px;
+  }
+
+  .hero .testimonia .clients .client .c-mid{
+    line-height: 25px;
+    color: rgb(173, 169, 169);
+   
+  }
+
+
+  .hero .testimonia .clients .client-img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+
+  .hero .testimonia .clients .client-name{
+    padding-top: 10px;
+  }
+
+  .hero .testimonia .clients .client-name .c-n-head{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .hero .testimonia .clients .client-name .c-n-mid{
+    font-size: 14px;
+    color: rgb(221, 214, 214);
+    padding-bottom: 10px;
+  }
+
+  .hero .testimonia .clients .client-img img{
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .hero .blog .blog-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .hero .blog .blog-header .blog-mid{
+    color: rgb(207, 66, 66);
+  }
+
+  .hero .blog .blog-header .blog-head{
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  .hero .blog-contents{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .hero .blog .left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ 
+   
+  }
+  .hero .blog .left .content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  
+  }
+
+  .hero .blog .left img{
+    width: 45%;
+    height: 60vh;
+    margin-left: 20px;
+  }
+
+  .hero .blog .left .content-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-right: 7px;
+    background-color: rgb(228, 226, 226);
+   
+  }
+
+  .hero .blog .left .date{
+    padding-top: 30px;
+    padding-left: 6px;
+  }
+
+  .hero .blog .left .content-t-head{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.623);
+  }
+
+  .hero .blog .left .content-t-mid{
+    padding-top: 20px;
+    color: gray;
+    line-height: 30px;
+  }
+
+  .hero .blog .left .c-t-b{
+    color: brown;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .hero .blog .right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+  }
+  .hero .blog .right .content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  
+  }
+
+  .hero .blog .right img{
+    width: 45%;
+    height: 60vh;
+    margin-left: 20px;
+  }
+
+  .hero .blog .right .content-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-right: 7px;
+    background-color: rgb(228, 226, 226);
+   
+  }
+
+  .hero .blog .right .date{
+    padding-top: 30px;
+    padding-left: 6px;
+  }
+
+  .hero .blog .right .content-t-head{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.623);
+  }
+
+  .hero .blog .right .content-t-mid{
+    padding-top: 20px;
+    color: gray;
+    line-height: 30px;
+  }
+
+  .hero .blog .right .c-t-b{
+    color: brown;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .hero .footer{
+   background-color: black;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .hero .footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px;
+  
+  }
+
+  .hero .footer .container .box1{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    background-color:brown;
+    margin-top: 20px;
+    color: white;
+  
+
+  }
+
+  .hero .footer .box1:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    padding-top: 5%;
+    background-color: transparent;
+
+  }
+
+  .hero .footer .container .box1 .footer-head{
+    color: rgba(255, 255, 255, 0.849);
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .hero .footer .container .box1 .f-h-s{
+    color: gray;
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .hero .footer .container .box1 .footer-mid{
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 15px;
+    text-align: justify;
+    line-height: 19px;
+  }
+
+  .hero .footer .box1:nth-child(2
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+   
+
+  }
+  .hero .footer .box1:nth-child(3
+  ){
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    align-items: center;
+    background-color: transparent;
+    
+
+  }
+  .hero .footer .box1:nth-child(4
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+   
+
+  }
+  .hero .footer .box1:nth-child(5
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+   
+
+  }
+
+  .hero .footer .container .box1 .box-head{
+    color: rgba(255, 255, 255, 0.795);
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .hero .footer .container .box1 .box-mid{
+    padding: 10px 10px;
+    color: gray;
+    font-size: 15px;
+  }
+  .hero .footer .container .box1 .box-text a{
+  
+    color: rgb(180, 178, 178);
+  }
+  .hero .footer .container .box1 .icons{
+   display: flex;
+   gap: 20px;
+   margin-top: 30px;
+  
+ 
+  }
+  .hero .footer .container .icons .f-h-i{
+
+  color: gray;
+  background-color: brown;
+  gap: 20px;
+  padding: 15px 15px;
+  border-radius: 50%;
+  
+ 
+  }
+
+
+  @media screen and (max-width:430px){
+    .hero nav{
+      width: 430px;
+    }
+
+    .hero .nav .nav-head{
+      margin-left: 3px;
+      margin-top: 5px;
+      font-size: 13px;
+    }
+
+    .hero .nav ul li .h{
+      color: orange;
+      font-size: 12px;
+    }
+    .hero .nav ul li a{
+      
+      font-size: 11px;
+      padding: 3px 3px;
+    }
+
+    .hero .header{
+     height: 70vh;
+  }
+
+  .hero .header .header-text{
+    margin-top: 20%;
+    margin-left: 2%; 
+   }
+
+   .hero .header-head{
+    color: white;
+    font-size: 40px;
+    
+  }
+
+  .hero .desire{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .hero .desire img{
+    width: 350px;
+    height: 400px;
+    margin-left: 17px;
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text{
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text .p1{
+
+    font-size: 16px;
+  }
+
+  .hero .desire .desire-text .desire-head{
+    font-size: 25px; 
+  }
+  .hero .desire .desire-text .p2{
+    font-size: 13px;
+  }
+  .hero .desire .desire-text .p3{
+    font-size: 13px;
+  }
+
+  .hero .desire .desire-text .p4{
+    font-size: 20px;
+   
+   }
+
+   .hero .verieties{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+  }
+    
+
+  .hero .brands .brand-text .brand-mid{
+    font-size: 16px;
+  }
+
+  .hero .brands .brand-text .brand-head{
+    padding-top: 15px;
+    font-size: 30px;
+  }
+
+  .hero .brands .imgs .brand-imgs img{
+    width: 170px;
+    height: 250px;
+   
+  }
+
+  .hero .brands .view{
+    padding: 8px 8px;
+    margin-left: 20%;
+    width: 200px;
+ 
+  }
+
+  .hero .testimonia .T-head{
+   font-size: 25px;
+  }
+
+  .hero .testimonia .clients {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+  }
+
+  .hero .blog .blog-header .blog-head{
+    font-size: 27px;
+    
+  }
+
+  .hero .blog-contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .blog .left{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .left img{
+    width: 60%;
+    height: 60vh;
+    margin-left: 17px;
+  }
+  .hero .blog .right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .right img{
+    width: 60%;
+    height: 60vh;
+    margin-left: 17px;
+  }
+
+  .hero .footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 8px;
+  
+  }
+
+  .hero .footer .container .box1{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    
+    margin-top: 5px;
+    color: white;
+  
+
+  }
+
+  .hero .footer .box1:nth-child(5
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+    margin-left: 20px;
+   
+
+  }
+
+
+  }
+
+  @media screen and (max-width:376px){
+    .hero nav{
+      width: 376px;
+    }
+
+    .hero .nav .nav-head{
+      margin-left: 3px;
+      margin-top: 5px;
+      font-size: 11px;
+    }
+
+    .hero .nav ul li .h{
+      color: orange;
+      font-size: 12px;
+    }
+    .hero .nav ul li a{
+      
+      font-size: 10px;
+      padding: 2px 6px;
+
+    }
+
+    .hero .header{
+     height: 70vh;
+  }
+
+  .hero .header .header-text{
+    margin-top: 20%;
+    margin-left: 2%; 
+   }
+
+   .hero .header-head{
+    color: white;
+    font-size: 25px;
+    
+  }
+
+  .hero .desire{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .hero .desire img{
+    width: 350px;
+    height: 400px;
+    margin-left: 17px;
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text{
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text .p1{
+
+    font-size: 16px;
+  }
+
+  .hero .desire .desire-text .desire-head{
+    font-size: 25px; 
+  }
+  .hero .desire .desire-text .p2{
+    font-size: 13px;
+  }
+  .hero .desire .desire-text .p3{
+    font-size: 13px;
+  }
+
+  .hero .desire .desire-text .p4{
+    font-size: 20px;
+   
+   }
+
+   .hero .verieties{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+  }
+    
+
+  .hero .brands .brand-text .brand-mid{
+    font-size: 16px;
+  }
+
+  .hero .brands .brand-text .brand-head{
+    padding-top: 15px;
+    font-size: 30px;
+  }
+
+  .hero .brands .imgs .brand-imgs img{
+    width: 170px;
+    height: 250px;
+   
+  }
+
+  .hero .brands .view{
+    padding: 8px 8px;
+    margin-left: 20%;
+    width: 200px;
+ 
+  }
+
+  .hero .testimonia .T-head{
+   font-size: 25px;
+  }
+
+  .hero .testimonia .clients {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+  }
+
+  .hero .blog .blog-header .blog-head{
+    font-size: 27px;
+    
+  }
+
+  .hero .blog-contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .blog .left{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .left img{
+    width: 60%;
+    height: 60vh;
+    margin-left: 6px;
+  }
+  .hero .blog .right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .right img{
+    width: 60%;
+    height: 60vh;
+    margin-left: 6px;
+  }
+
+  .hero .footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 8px;
+  
+  }
+
+  .hero .footer .container .box1{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    
+    margin-top: 5px;
+    color: white;
+  
+
+  }
+
+  .hero .footer .box1:nth-child(5
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+    margin-left: 20px;
+   
+
+  }
+
+
+  }
+  @media screen and (max-width:360px){
+    .hero nav{
+      width: 360px;
+    }
+
+    .hero .nav .nav-head{
+      margin-left: 5px;
+      margin-top: 5px;
+      font-size: 10px;
+    }
+
+    .hero .nav ul li .h{
+      color: orange;
+      font-size: 12px;
+    }
+    .hero .nav ul li a{
+      
+      font-size: 10px;
+      padding: 2px 1px;
+
+    }
+
+    .hero .header{
+     height: 70vh;
+  }
+
+  .hero .header .header-text{
+    margin-top: 20%;
+    margin-left: 2%; 
+   }
+
+   .hero .header-head{
+    color: white;
+    font-size: 25px;
+    
+  }
+
+  .hero .desire{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .hero .desire img{
+    width: 350px;
+    height: 400px;
+    margin-left: 7px;
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text{
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text .p1{
+
+    font-size: 16px;
+  }
+
+  .hero .desire .desire-text .desire-head{
+    font-size: 25px; 
+  }
+  .hero .desire .desire-text .p2{
+    font-size: 13px;
+  }
+  .hero .desire .desire-text .p3{
+    font-size: 13px;
+  }
+
+  .hero .desire .desire-text .p4{
+    font-size: 20px;
+   
+   }
+
+   .hero .verieties{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+  }
+    
+
+  .hero .brands .brand-text .brand-mid{
+    font-size: 16px;
+  }
+
+  .hero .brands .brand-text .brand-head{
+    padding-top: 15px;
+    font-size: 30px;
+  }
+
+  .hero .brands .imgs .brand-imgs img{
+    width: 140px;
+    height: 250px;
+   
+  }
+
+  .hero .brands .view{
+    padding: 8px 8px;
+    margin-left: 20%;
+    width: 200px;
+ 
+  }
+
+  .hero .testimonia .T-head{
+   font-size: 25px;
+  }
+
+  .hero .testimonia .clients {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+  }
+
+  .hero .blog .blog-header .blog-head{
+    font-size: 27px;
+    
+  }
+
+  .hero .blog-contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .blog .left{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .left img{
+    width: 55%;
+    height: 60vh;
+    margin-left: 7px;
+  }
+  .hero .blog .right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .right img{
+    width: 55%;
+    height: 60vh;
+    margin-left: 7px;
+  }
+
+  .hero .footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 8px;
+  
+  }
+
+  .hero .footer .container .box1{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    
+    margin-top: 5px;
+    color: white;
+  
+
+  }
+
+  .hero .footer .box1:nth-child(5
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+    margin-left: 20px;
+   
+
+  }
+
+
+  }
+
+  @media screen and (max-width:320px){
+    .hero nav{
+      width: 360px;
+    }
+
+    .hero .nav .nav-head{
+      margin-left: 3px;
+      margin-top: 5px;
+      font-size: 10px;
+    }
+
+    .hero .nav ul li .h{
+      color: orange;
+      font-size: 12px;
+    }
+    .hero .nav ul li a{
+      
+      font-size: 10px;
+      padding: 2px 1px;
+
+    }
+
+    .hero .header{
+     height: 70vh;
+  }
+
+  .hero .header .header-text{
+    margin-top: 20%;
+    margin-left: 2%; 
+   }
+
+   .hero .header-head{
+    color: white;
+    font-size: 25px;
+    
+  }
+
+  .hero .desire{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .hero .desire img{
+    width: 300px;
+    height: 400px;
+    margin-left: 7px;
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text{
+    margin-top: 50px;
+  }
+
+  .hero .desire .desire-text .p1{
+
+    font-size: 16px;
+  }
+
+  .hero .desire .desire-text .desire-head{
+    font-size: 25px; 
+  }
+  .hero .desire .desire-text .p2{
+    font-size: 13px;
+  }
+  .hero .desire .desire-text .p3{
+    font-size: 13px;
+  }
+
+  .hero .desire .desire-text .p4{
+    font-size: 20px;
+   
+   }
+
+   .hero .verieties{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+  }
+    
+
+  .hero .brands .brand-text .brand-mid{
+    font-size: 16px;
+  }
+
+  .hero .brands .brand-text .brand-head{
+    padding-top: 15px;
+    font-size: 30px;
+  }
+
+  .hero .brands .imgs .brand-imgs img{
+    width: 140px;
+    height: 250px;
+   
+  }
+
+  .hero .brands .view{
+    padding: 8px 8px;
+    margin-left: 20%;
+    width: 200px;
+ 
+  }
+
+  .hero .testimonia .T-head{
+   font-size: 25px;
+  }
+
+  .hero .testimonia .clients {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+  }
+
+  .hero .blog .blog-header .blog-head{
+    font-size: 27px;
+    
+  }
+
+  .hero .blog-contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .blog .left{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .left img{
+    width: 50%;
+    height: 80vh;
+    margin-left: 5px;
+  }
+  .hero .blog .right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;}
+ 
+
+  .hero .blog .right img{
+    width: 50%;
+    height: 80vh;
+    margin-left: 5px;
+  }
+
+  .hero .footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 8px;
+  
+  }
+
+  .hero .footer .container .box1{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    
+    margin-top: 5px;
+    color: white;
+  
+
+  }
+
+  .hero .footer .box1:nth-child(5
+  ){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: transparent;
+    margin-left: 20px;
+   
+
+  }
+
+
+  }
+  
+
+
+  
+
+
+
+  
+
+
+ 
